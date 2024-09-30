@@ -6,7 +6,7 @@
 .banner{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(kitchen1.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(/image/kitchen1.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -19,8 +19,12 @@
     justify-content: space-between;
 }
 .logo{
-    width: 120px;
+    width: 100px;
     cursor: pointer;
+    transition: 0.5s;
+}
+.logo:hover{
+    transform: scale(1.1);
 }
 .navbar ul li{
     list-style: none;
@@ -58,8 +62,8 @@
 .content h1{
     font-size: 70px;
     margin-top: 80px;
-
 }
+
 .content p{
     margin: 20px auto;
     font-weight: 100;
